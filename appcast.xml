@@ -3,6 +3,26 @@
     <channel>
         <title>Atlas</title>
         <item>
+            <title>0.2.3</title>
+            <pubDate>Thu, 25 Jun 2026 10:38:29 -0500</pubDate>
+            <sparkle:version>87</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<h3>Fixed</h3>
+<ul>
+  <li><strong>Crash on launch for fresh installs.</strong> Atlas could quit immediately on the first launch after installing on a new Mac. The app now starts reliably, and if its bundled fonts ever can't be loaded it falls back to the system font instead of crashing.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.3.dmg" length="6681207" type="application/octet-stream" sparkle:edSignature="/iibJFBPtuQqrXbeJUBFsEu4fiIFt329YxKk5WjQtlxpfEEXpi3wWqOTLbuXAcDIqLmPiZlK00CySnSpckjYDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas87-84.delta" sparkle:deltaFrom="84" length="193106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hSiXDLsV31xEDuc1VE42gVzxqHlLNHK5sat4EOL82e+Scekm/o7HNsCRZCeWkty0LtW/JTuNE8UZ8XVTFuxuBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas87-81.delta" sparkle:deltaFrom="81" length="1500638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DOmARvHgVchELn7YzelZeu2IBqBB9UlShbQs7Vl+DicZSw5Ri6yfUTUMNxbVkKlkItqIKeSwLeYYg3ondW9aAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas87-73.delta" sparkle:deltaFrom="73" length="1501566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UjtaKk3XDdtg/xngs4WHK0Fddgvg6WKqBpDCni6hcA0EfuSaJYAN/VABnhoKBCVBniSVrJF1ZsTcWDswHo4NDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Thu, 25 Jun 2026 10:01:46 -0500</pubDate>
             <sparkle:version>84</sparkle:version>
@@ -54,15 +74,6 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas81-73.delta" sparkle:deltaFrom="73" length="58218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cb5qRJZL85NIlBBCOYSisP9sOZWrCPwQxG4/rl+IJt044cKKh4hV2tZep1KpBu5O7mUTll+wQqQEnsjTAZ/rDA=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Thu, 25 Jun 2026 08:43:52 -0500</pubDate>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.0.dmg" length="5080194" type="application/octet-stream" sparkle:edSignature="NT544LZLTQUTpqcJaXqFvJYo0oyFgEyR/3TuIp6aayVolevUh3E4+kmQr5IFV+nJuSCp+LfCRJ3qWRCDNvO8Dw=="/>
         </item>
     </channel>
 </rss>
