@@ -3,6 +3,34 @@
     <channel>
         <title>Atlas</title>
         <item>
+            <title>0.2.5</title>
+            <pubDate>Tue, 30 Jun 2026 08:47:31 -0500</pubDate>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
+<h3>Changed</h3>
+<ul>
+  <li><strong>The title docks into the top bar as you scroll (iPhone &amp; iPad).</strong> While reading a note or browsing All Notes, the large title now slides up and settles into the navigation bar as you scroll down — so you always know where you are — and expands again when you scroll back to the top, matching the native iOS feel.</li>
+  <li><strong>Settings moved to the top bar on iPhone.</strong> In All Notes, the Settings gear now lives in the navigation bar alongside the menu button, instead of next to the page heading.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+  <li><strong>The formatting bar no longer flickers when you format text (Mac).</strong> Applying bold, italic, highlight, or other inline formatting kept the bar steady instead of having it blink out and snap back into place.</li>
+  <li><strong>The formatting bar stays in view for long selections (Mac).</strong> Selecting a large block of text now anchors the bar at the top of the selection in view, rather than dropping it to the bottom-left of the editor.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.5.dmg" length="6953953" type="application/octet-stream" sparkle:edSignature="qYCpUQTnAUqgV6MKhUTKRk21T0nITi6Z6WDLMvHMcN2lTW2I/mR66kiTjS/xFn6XmwEBWc1OuKRej6XRwWSAAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-105.delta" sparkle:deltaFrom="105" length="366774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ouTAYp3pWNOS8jeavmxE3AUbgxboz4ZrnYU3awt8MJjugdrI48e74Di+AFf8OfWhrp+9ynI4SXx6fPFp8J8UDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-87.delta" sparkle:deltaFrom="87" length="735206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D9wOx5peJ7Rg1cjQezcdkJgSuUvdTxMkaR3uiQtqft9Fgzaa54ZWHsg3IXtp3/GC8nlFSyqDqVBbYcQD4905BQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-84.delta" sparkle:deltaFrom="84" length="737914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GIFymVAfIofhLFxFlvJhDmrcEukZ2VuoSeH4NqW3FsviqN/GyTSKIDA2Pmu4cTas6RzLewPK9cWDKm9ri8MTCw=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-81.delta" sparkle:deltaFrom="81" length="2046030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/duc5fkFnM1j6+ljH1b5fBHSVjGCzSQnY5XBKuZQJYHDZIsrClQ0+cwkbhph7+quAR4lanwaNr61FOjQtYwKDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas118-73.delta" sparkle:deltaFrom="73" length="2044726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Vz28jsO6KjwcoYmdOH2kaOSiQcxXu9IcYdalW8iUL35NUBAoEFEx1Qh6NDqHruZnbMoR9JXcLbNZiAmaDnnFDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.4</title>
             <pubDate>Sat, 27 Jun 2026 23:01:03 -0500</pubDate>
             <sparkle:version>105</sparkle:version>
@@ -58,22 +86,6 @@
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas87-84.delta" sparkle:deltaFrom="84" length="193106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hSiXDLsV31xEDuc1VE42gVzxqHlLNHK5sat4EOL82e+Scekm/o7HNsCRZCeWkty0LtW/JTuNE8UZ8XVTFuxuBQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas87-81.delta" sparkle:deltaFrom="81" length="1500638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DOmARvHgVchELn7YzelZeu2IBqBB9UlShbQs7Vl+DicZSw5Ri6yfUTUMNxbVkKlkItqIKeSwLeYYg3ondW9aAA=="/>
                 <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas87-73.delta" sparkle:deltaFrom="73" length="1501566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UjtaKk3XDdtg/xngs4WHK0Fddgvg6WKqBpDCni6hcA0EfuSaJYAN/VABnhoKBCVBniSVrJF1ZsTcWDswHo4NDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.2</title>
-            <pubDate>Thu, 25 Jun 2026 10:01:46 -0500</pubDate>
-            <sparkle:version>84</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>body{font:13px/1.5 -apple-system,system-ui,sans-serif;margin:0;color:#1d1d1f}h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#86868b;margin:14px 0 6px}ul{margin:0;padding-left:18px}li{margin:4px 0}code{font-family:ui-monospace,monospace;font-size:12px;background:#f2f2f7;padding:1px 4px;border-radius:4px}</style>
-<p>Maintenance and fixes.</p>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas-0.2.2.dmg" length="6680842" type="application/octet-stream" sparkle:edSignature="vL2jowiGjEAYLNEiXcn+Us4sLkOwLXzFDm6QxB4651NdS9UpZ7aHcHrdFSpZnusTUmZsN0CwF/kE6wnbN91BDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas84-81.delta" sparkle:deltaFrom="81" length="1366086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qyFxni2M27oftA5/IWN2iCENYgpWDg+zGgrcbNswCWy8vzx2K6JpzwJlUpxpdhFiQwBY8yc5RvaghaFROALmDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/braydoncoyer/atlas-releases/main/Atlas84-73.delta" sparkle:deltaFrom="73" length="1318958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1kakQz0t0l1ZthTtjObcrZVTAoKyAEhXmqWxXDM451eSyy1184DyGg1Lxqi0VeGw9b+r1ZImYI9Q1K/Mw1RaDA=="/>
             </sparkle:deltas>
         </item>
     </channel>
